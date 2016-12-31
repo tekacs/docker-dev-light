@@ -1,3 +1,3 @@
 FROM tekacs/alpine-fish-sshd
 
-RUN apk add vim alpine-sdk
+RUN apk add alpine-sdk vim go
