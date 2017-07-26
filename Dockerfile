@@ -1,4 +1,4 @@
-FROM tekacs/alpine-fish-sshd
+FROM tekacs/alpine-xonsh-sshd
 
 RUN apk add alpine-sdk vim go py-virtualenv
 
